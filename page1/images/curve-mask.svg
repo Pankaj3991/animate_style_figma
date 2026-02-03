@@ -1,0 +1,19 @@
+<!-- curve-mask.svg -->
+<svg
+  width="100%"
+  height="100%"
+  viewBox="0 0 1000 700"
+  preserveAspectRatio="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="
+      M 0 0
+      H 1000
+      V 580
+      C 650 680, 350 680, 0 580
+      Z
+    "
+    fill="white"
+  />
+</svg>

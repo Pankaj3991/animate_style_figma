@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="sticky top-0 left-0 w-full h-[70px] lg:h-[100px] z-50" id="main-header">
+        <div class="max-w-[1140px] mx-auto flex justify-between items-center h-full px-4">
+            <a href="#" class="flex items-center h-full inline-block hover:scale-[1.1] transition-all duration-500">
+                <img src="./assets/images/logo.png" alt="logo"
+                    class="max-w-[176px] max-h-[40px] lg:max-h-[76px] filter invert brightness-0">
+            </a>
+            <nav class="flex gap-[30px] text-white max-lg:hidden">
+                <a href="#"
+                    class="group px-2 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%] relative">Home
+                    <span class="absolute left-0 -bottom-[4px] h-[4px] w-0 bg-red-500 rounded-full group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="#"
+                    class="px-2 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%] relative group">
+                    About Us
+                    <span
+                        class="absolute left-0 -bottom-[4px] h-[4px] w-0 bg-red-500 rounded-full group-hover:w-full transition-all duration-300"></span>
+
+                </a>
+                <a href="#"
+                    class="px-2 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%] relative group">Why
+                    Us
+                    <span
+                        class="absolute left-0 -bottom-[4px] h-[4px] w-0 bg-red-500 rounded-full group-hover:w-full transition-all duration-300"></span>
+
+                </a>
+                <a href="#"
+                    class="px-2 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%] relative group">
+                    Services
+                    <span
+                        class="absolute left-0 -bottom-[4px] h-[4px] w-0 bg-red-500 rounded-full group-hover:w-full transition-all duration-300"></span>
+
+                </a>
+            </nav>
+            <button
+                class="inline-block py-[14.5px] px-[26.5px] bg-white rounded-[100px] max-lg:hidden group hover:scale-[1.1] hover:animation-hover transition-all duration-500">
+                <a href="#"
+                    class="font-[Raleway] text-[16px] font-bold rounded-[100px] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] bg-clip-text text-transparent">Customer
+                    Login</a>
+            </button>
+
+            <div id="menu" class="lg:hidden">
+                <i class="fa-solid fa-bars text-2xl md:text-3xl lg:text-4xl text-white"></i>
+            </div>
+        </div>
+
+        <!-- small screen header -->
+        <header id="header" class="w-full absolute top-[60px] -left-[150%] flex flex-col gap-4 justify-center rounded-b-lg items-center bg-[url('./assets/images/heroBg.png')]
+                    pt-4 pb-8 transition-all duration-[900ms] z-[50]">
+            <div class="flex justify-between w-full px-4">
+                <h1></h1>
+                <h1 id="cross" class="text-5xl rotate-45 text-white">+</h1>
+            </div>
+            <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Home</a>
+            <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">About
+                Us</a>
+            <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Why Us</a>
+            <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Services</a>
+
+            <button class="inline-block w-fit py-[14.5px] px-[26.5px] bg-white rounded-[100px]">
+                <a
+                    class="font-[Raleway] text-[16px] font-bold rounded-[100px] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] bg-clip-text text-transparent">Customer
+                    Login</a>
+            </button>
+        </header>
+    </header>
+    <main>
+        <!-- hero section -->
+        <section
+            class="-mt-[100px] w-full bg-[url('./assets/images/heroBg.png')] bg-bottom bg-cover bg-no-repeat pt-[150px] pb-[233px]">
+            <div
+                class="max-w-[1140px] mx-auto px-4 flex flex-col-reverse gap-4 lg:flex-row justify-between items-center">
+                <div class="flex-1">
+                    <h1
+                        class="max-w-[425px] font-[Raleway] font-[600] text-[30px] sm:text-[40px] lg:text-[50px] leading-[110%] text-white mb-[20px]">
+                        Unlock your growth potential <span class="italic">with our services</span>
+                    </h1>
+                    <p class="font-[Raleway] font-[500] text-[20px] leading-[150%] text-white">Cold Chain is now just a
+                        CLICK away</p>
+                </div>
+                <div class="max-w-[424px] flex-1 border-black">
+                    <img src="./assets/images/heroTruck.svg" alt="HeroTruck" class="w-full h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Card on hero section -->
+        <section class="max-w-[1200px] mx-auto -mt-[200px] z-10 max-md:mb-[50px]">
+            <div class="w-[90%] mx-auto p-[30px] shadow-lg shadow-[#A9A1A140] rounded-md bg-white">
+                <h3 class="font-[Raleway] font-[600] text-[20px] leading-[28px] mb-[24px]">On the part load freight
+                    quotations</h3>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-[12px] border-t-[1px] border-gray-300">
+                    <!-- location -->
+                    <div class="">
+                        <h3 class="font-[Raleway] text-[18px] mb-[15px]">Location<span class="text-red-500">*</span>
+                        </h3>
+                        <div
+                            class="w-full h-[53px] flex justify-center items-center px-[20px] mb-[24px] bg-[#E9F6FF] rounded-lg">
+                            <img src="./assets/images/locationIcon.png" alt="location"
+                                class="w-[17px] h-auto mr-[12px]">
+                            <input type="text" placeholder="Pickup Location*"
+                                class="placeholder-[Raleway] placeholder-[14px] placeholder-[#9CA3AF] w-full bg-transparent">
+                        </div>
+                        <div class="w-full h-[53px] flex justify-center items-center px-[20px] bg-[#E9F6FF] rounded-lg">
+                            <img src="./assets/images/locationIcon.png" alt="location"
+                                class="w-[17px] h-auto mr-[12px]">
+                            <input type="text" placeholder="Pickup Location*"
+                                class="placeholder-[Raleway] placeholder-[14px] placeholder-[#9CA3AF] w-full bg-transparent">
+                        </div>
+                    </div>
+
+                    <!-- select vehicle -->
+                    <div class="">
+                        <h3 class="font-[Raleway] text-[18px] mb-[15px]">Select Vehicle type<span
+                                class="text-red-500">*</span></h3>
+                        <div class="flex gap-[24px]">
+                            <div
+                                class="w-[136px] h-[130px] flex flex-col justify-center items-center rounded-lg bg-[#E9F6FF]">
+                                <img src="./assets/images/truckIcon.png" alt="TruckIcon" class="w-[61px] h-[61px]">
+                                <h1 class="font-[Raleway] text-[14px] leading-[20px] mb-[7px] text-[#7C7C7C]">Chiller
+                                </h1>
+                                <h1 class="text-[#7C7C7C] font-[Raleway] font-bold text-[14px] leading-[14px]">(+5° to
+                                    20°)</h1>
+                            </div>
+                            <div
+                                class="w-[136px] h-[130px] flex flex-col justify-center items-center rounded-lg bg-[#E9F6FF]">
+                                <img src="./assets/images/truckIcon.png" alt="TruckIcon" class="w-[61px] h-[61px]">
+                                <h1 class="font-[Raleway] text-[14px] leading-[20px] mb-[7px] text-[#7C7C7C]">Chiller
+                                </h1>
+                                <h1 class="text-[#7C7C7C] font-[Raleway] font-bold text-[14px] leading-[14px]">(+5° to
+                                    20°)</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- package details -->
+                    <div class="">
+                        <h3 class="font-[Raleway] text-[18px] mb-[15px]">Package details<span
+                                class="text-red-500">*</span></h3>
+                        <div
+                            class="px-[20px] h-[53px] flex justify-center items-center rounded-lg bg-[#E9F6FF] mb-[24px]">
+                            <img src="./assets/images/quantityIcon.png" alt="Quantity"
+                                class="w-[21px] h-auto mr-[21px]">
+                            <select name="" id="" class="bg-transparent text-[#9CA3AF] font-[Raleway] text-[14px] pr-4">
+                                <option value="Quantity of load" selected disabled>Quantity of load*</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                            </select>
+                        </div>
+                        <div class="px-[20px] h-[53px] flex justify-center items-center rounded-lg bg-[#E9F6FF]">
+                            <img src="./assets/images/productType.png" alt="ProductType"
+                                class="w-[21px] h-auto mr-[21px]">
+                            <select name="" id="" class="bg-transparent text-[#9CA3AF] font-[Raleway] text-[14px] pr-4">
+                                <option value="Quantity of load" selected disabled>Product type*</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                                <option value="abc">abc</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- pickup date -->
+                    <div class="">
+                        <h3 class="font-[Raleway] text-[18px] mb-[15px]">Pickup date<span class="text-red-500">*</span>
+                        </h3>
+                        <div
+                            class="h-[53px] rounded-lg bg-[#E9F6FF] px-[20px] flex justify-center items-center mb-[23px]">
+                            <img src="./assets/images/dateIcon.png" alt="dateIcon" class="w-[20px] h-auto mr-[11px]">
+                            <input type="date" placeholder="abc"
+                                class="text-[#7B8A93] text-[14px] font-[Raleway] bg-transparent">
+                        </div>
+
+                        <button
+                            class="w-full h-[53px] flex justify-center items-center rounded-lg text-white hover:scale-[1.1] transition-all duration-500
+                            bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] font-[Raleway] font-bold text-[20px]">
+                            Get estimation
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- why choose -->
+        <section class="w-full mb-[90px]">
+            <div class="max-w-[1340px] mx-auto">
+                <div
+                    class="w-full text-center px-4 text-[11vw] 2xl:text-[148px] tracking-[2vw] 2xl:tracking-[35px] bg-[#1EA7FF]/5 font-[800] bg-clip-text text-transparent">
+                    Why Choose
+                </div>
+            </div>
+            <div class="max-w-[1140px] mx-auto px-4 -mt-[20px] sm:-mt-[50px] lg:-mt-[70px]">
+                <h1 class="font-[Raleway] font-[500] w-full text-center text-[30px] md:text-[38px] lg:text-[48px]>
+                <span class=" text-black mr-4">Why Choose </span><span
+                        class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">
+                        Part Load Service?
+                    </span>
+                </h1>
+
+                <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+                    <div
+                        class="border-[1px] border-[rgba(0,0,0,0.2)] p-6 rounded-lg flex gap-6 max-sm:flex-col max-sm:items-center
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div
+                            class="min-w-[80px] h-[85px] rounded-md flex justify-center items-center bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)]">
+                            <img src="./assets/images/choose1.png" alt="choose1" class="w-[37px] h-[37px]">
+                        </div>
+                        <div class="">
+                            <h3 class="font-[Raleway] font-bold text-[18px] leading-[120%] text-[#333333] mb-[6px]">
+                                Experience door-to-door service for smaller weights as well
+                            </h3>
+                            <h3 class="font-[Raleway] text-[18px] leading-[150%] text-[#555555]">
+                                Enjoy on-demand pickup & delivery at your doorstep
+                            </h3>
+                        </div>
+                    </div>
+                    <div
+                        class="border-[1px] border-[rgba(0,0,0,0.2)] p-6 rounded-lg flex gap-6 max-sm:flex-col max-sm:items-center
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div
+                            class="min-w-[80px] h-[85px] rounded-md flex justify-center items-center bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)]">
+                            <img src="./assets/images/choose2.png" alt="choose2" class="w-[37px] h-[37px]">
+                        </div>
+                        <div class="">
+                            <h3 class="font-[Raleway] font-bold text-[18px] leading-[120%] text-[#333333] mb-[6px]">
+                                Ship your load from 100 kg onwards
+                            </h3>
+                            <h3 class="font-[Raleway] text-[18px] leading-[150%] text-[#555555]">
+                                Get your documents, laptops, lunch boxes, forgotten keys or other small packages picked
+                                up and delivered instantly
+                            </h3>
+                        </div>
+                    </div>
+                    <div
+                        class="border-[1px] border-[rgba(0,0,0,0.2)] p-6 rounded-lg flex gap-6 max-sm:flex-col max-sm:items-center
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div
+                            class="min-w-[80px] h-[85px] rounded-md flex justify-center items-center bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)]">
+                            <img src="./assets/images/choose3.png" alt="choose3" class="w-[37px] h-[37px]">
+                        </div>
+                        <div class="">
+                            <h3 class="font-[Raleway] font-bold text-[18px] leading-[120%] text-[#333333] mb-[6px]">
+                                Most cost-effective option
+                            </h3>
+                            <h3 class="font-[Raleway] text-[18px] leading-[150%] text-[#555555]">
+                                Be it a pen or multiple documents, send anything up to 20 kg anywhere across the city
+                            </h3>
+                        </div>
+                    </div>
+                    <div
+                        class="border-[1px] border-[rgba(0,0,0,0.2)] p-6 rounded-lg flex gap-6 max-sm:flex-col max-sm:items-center
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div
+                            class="min-w-[80px] h-[85px] rounded-md flex justify-center items-center bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)]">
+                            <img src="./assets/images/choose4.png" alt="choose4" class="w-[37px] h-[37px]">
+                        </div>
+                        <div class="">
+                            <h3 class="font-[Raleway] font-bold text-[18px] leading-[120%] text-[#333333] mb-[6px]">
+                                Enjoy seamless service for part loads across cities
+                            </h3>
+                            <h3 class="font-[Raleway] text-[18px] leading-[150%] text-[#555555]">
+                                Book two-wheeler delivery services online and get same-day delivery
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App now -->
+        <section class="w-full mb-[80.13px] bg-[#E9F6FF]"">
+        <div class=" max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-[50px]">
+            <div class="">
+                <img src="./assets/images/app.png" alt="App" class="w-full max-h-[547px]">
+            </div>
+            <div class="px-4">
+                <h1 class="font-[Raleway] font-[500] text-[32px] md:text-[42px] xl:text-[52px] leading-[120%]">Get Ravi
+                    Frozen</h1>
+                <h1
+                    class="font-[Raleway] font-[500] text-[32px] md:text-[42px] xl:text-[52px] leading-[120%] mb-[21px]">
+                    COLD CHAIN</h1>
+                <h2
+                    class="font-[Raleway] font-[300] text-[28px] md:text-[38px] xl:text-[48px] leading-[120%] mb-[21px]">
+                    App Now!
+                </h2>
+                <p class="mb-[50px] font-[Raleway] font-[300] text-[20px] leading-[28px]">
+                    Welcome to Ravi Frozen your all-in-one solution for simplifying cold supply chain management!
+                </p>
+                <button class="flex h-[67px] px-4 flex gap-2 items-center rounded-md bg-black w-fit py-2 hover:shadow-lg shadow-black hover:scale-[1.05] transition-all duration-300">
+                    <div class="w-[50px] h-[50px]">
+                        <img src="./assets/images/google-play.png" alt="google-play" class="w-full h-full">
+                    </div>
+                    <div class="flex flex-col gap-[2px]">
+                        <h3 class="font-[Raleway] font-[500] text-md text-white">GET IT ON</h3>
+                        <h3 class="font-[Raleway] font-[700] text-xl text-white">Google Play</h3>
+                    </div>
+                </button>
+            </div>
+            </div>
+        </section>
+
+        <!-- Other services -->
+        <section class="w-full">
+            <div class="max-w-[1340px] mx-auto">
+                <div
+                    class="w-full text-center px-4 text-[8vw] 2xl:text-[148px] tracking-[2vw] 2xl:tracking-[35px] bg-[#1EA7FF]/5 font-[800] bg-clip-text text-transparent">
+                    Other Services
+                </div>
+            </div>
+
+            <div class="max-w-[750px] mx-auto px-4 -mt-[20px] sm:-mt-[30px] lg:-mt-[50px]">
+                <h1 class="font-[Raleway] font-[500] w-full text-center text-[30px] md:text-[38px] lg:text-[48px]>
+                <span class=" text-black mr-4">Other Logistics </span><span
+                        class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">
+                        Services
+                    </span>
+                </h1>
+
+                <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div
+                        class="rounded-lg border-[1px] border-[rgba(0,0,0,0.2)] p-6 flex gap-[9px] flex justify-between
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div class="flex flex-col gap-[8px]">
+                            <div class="w-[58px] h-[58px] p-[5px] bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] rounded-full
+                            flex justify-center items-center">
+                                <img src="./assets/images/services1.svg" alt="services1" class="w-full h-full">
+                            </div>
+                            <p class="font-[Raleway] text-[18px] font-semibold leading-[28px]">Full truck load
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </p>
+                        </div>
+                        <div class="max-w-[96px] max-h-[121px]">
+                            <img src="./assets/images/service12.svg" alt="services12" class="w-full h-full">
+                        </div>
+                    </div>
+                    <div
+                        class="rounded-lg border-[1px] border-[rgba(0,0,0,0.2)] p-6 flex gap-[9px] flex justify-between
+                        hover:shadow-lg hover:border-none shadow-black hover:scale-[1.05] transition-all duration-300">
+                        <div class="flex flex-col gap-[8px]">
+                            <div class="w-[58px] h-[58px] p-[5px] bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] rounded-full
+                            flex justify-center items-center">
+                                <img src="./assets/images/services2.svg" alt="services1" class="w-full h-full">
+                            </div>
+                            <p class="font-[Raleway] text-[18px] font-semibold leading-[28px]">Monthly dedicated
+                                vehicle<i class="fa-solid fa-arrow-right-long"></i>
+                            </p>
+                        </div>
+                        <div class="max-w-[96px] max-h-[121px]">
+                            <img src="./assets/images/services22.svg" alt="services12" class="w-full h-full">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="w-full bg-[url('./assets/images/footer.png')] bg-cover bg-no-repeat bg-top pt-12 pb-4 px-4">
+        <div
+            class="mx-auto max-w-[1139.68px] grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 place-items-center mt-[100px]">
+            <div class="">
+                <!-- <div class="mb-[24px] border-[1px]"> -->
+                    <a href="#">
+<img src="./assets/images/logo.png" alt="FooterLogo"
+                    class="max-sm:max-w-[118px] mx-auto max-w-[218px] h-fit object-contain invert brightness-0 mb-2
+                    hover:shadow-lg shadow-black hover:scale-[1.05] transition-all duration-300">
+                    </a>
+                
+                <!-- </div> -->
+                <p class="font-[Raleway] font-[500] text-[20px] leading-[29.88px] text-white">
+                    We serve you Cold. Cold Chain
+                </p>
+                <p class="font-[Raleway] font-[500] text-[20px] leading-[29.88px] text-white">
+                    service now just a click away. </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-2 justify-items-center sm:grid-cols-2">
+                <div class="">
+                    <h1 class="font-[Raleway] font-semibold text-[22px] leading-[26.4px] text-white mb-[24px]">Links
+                    </h1>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300">About
+                        Us</a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300">Why Us</a>
+                    <a href="#"
+                        class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300">Services</a>
+                </div>
+                <div class="">
+                    <h1 class="font-[Raleway] font-semibold text-[22px] leading-[26.4px] text-white mb-[24px]">Get in
+                        Touch</h1>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300"><i
+                            class="fa-regular fa-envelope mr-[4px]"></i>sales@ravifrozen.in
+                        </a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300"><i
+                            class="fa-solid fa-phone mr-[4px]"></i>+91 123 456 7890</a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px] hover:scale-[1.1] transition-all duration-300"><i
+                            class="fa-solid fa-location-dot mr-[4px]"></i>6391 Elgin St. Celina, Delaware 10299</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-full h-[63px] flex justify-center items-center border-t-[1px] font-[Raleway] font-[400] text-[15px] leading-[18px] text-white">
+            Ravi Frozen©2025. All Rights Reserved.
+        </div>
+    </footer>
+    <script>
+        const header = document.getElementById('header');
+        const menu = document.getElementById('menu');
+        const cross = document.getElementById('cross');
+
+        menu.addEventListener('click', () => {
+            header.classList.toggle('-left-[150%]');
+            header.classList.toggle('left-0');
+        });
+        cross.addEventListener('click', () => {
+            header.classList.toggle('left-0');
+            header.classList.toggle('-left-[150%]');
+        });
+
+        const navbar = document.getElementById("main-header");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add("bg-[url('./assets/images/heroBg.png')]", "shadow-md");
+            } else {
+                navbar.classList.remove("bg-[url('./assets/images/heroBg.png')]", "shadow-md");
+            }
+        });
+    </script>
+</body>
+
+</html>

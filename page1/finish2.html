@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" 
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="w-full bg-[url('./images/flowers.png'),linear-gradient(to_bottom_right,#29E0FF_0%,_#1FB0FF_100%),url('./images/curve-mask.svg')]
+ bg-cover bg-center [mask-image:url('./images/curve-mask.svg')] [mask-repeat:no-repeat] [mask-size:100%_100%]">
+        <!-- header section -->
+        <div class="w-full" id="main-header">
+            <div class="max-w-[1290px] max-2xl:ml-auto 2xl:mx-auto">
+                <header class="px-4 h-[100px] w-full flex justify-between items-center max-lg:px-4">
+                    <a href="/" class="block">
+                        <img src="./images/logo.png" alt="Logo" class="max-h-[74px] w-auto object-contain">
+                    </a>
+
+                    <nav class="flex gap-[30px] text-white max-lg:hidden">
+                        <a href="#" class="hover:shadow-md px-4 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%]">Home</a>
+                        <a href="#" class="hover:shadow-md px-4 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%]">About Us</a>
+                        <a href="#" class="hover:shadow-md px-4 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%]">Why Us</a>
+                        <a href="#" class="hover:shadow-md px-4 py-2 rounded-md font-[Raleway] font-[500] block text-[18px] leading-[120%]">Services</a>
+<!-- 
+                <a href="#" class="relative group px-2 py-1 font-[Raleway] font-[500] block text-[18px] leading-[120%]">Home
+                    <span class="absolute right-0 bottom-0 h-0 w-[2px] bg-[#0C76BF]
+                 group-hover:h-full duration-200 delay-200"></span>
+
+                    <span class="absolute right-0 bottom-0 w-0 h-[2px] bg-[#0C76BF]
+                 group-hover:w-full duration-200 delay-200"></span>
+
+                    <span class="absolute left-0 top-0 w-0 h-[2px] bg-[#0C76BF]
+                 group-hover:w-full duration-200 delay-0"></span>
+
+                    <span class="absolute left-0 top-0 h-0 w-[2px] bg-[#0C76BF]
+                 group-hover:h-full duration-300 delay-0"></span>
+                </a>
+
+                <a href="#" class="text-[var(--text-nav)] relative group px-2 py-1 font-[Raleway] font-[500] block text-[18px] leading-[120%]">About Us
+                    <span class="absolute right-0 bottom-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-200"></span>
+
+                    <span class="absolute right-0 bottom-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-200"></span>
+
+                    <span class="absolute left-0 top-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-0"></span>
+
+                    <span class="absolute left-0 top-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-0"></span>
+                </a>
+
+                <a href="#" class="text-[var(--text-nav)] relative group px-2 py-1 font-[Raleway] font-[500] block text-[18px] leading-[120%]">Why Us
+                    <span class="absolute right-0 bottom-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-200"></span>
+
+                    <span class="absolute right-0 bottom-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-200"></span>
+
+                    <span class="absolute left-0 top-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-0"></span>
+
+                    <span class="absolute left-0 top-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-0"></span>
+                </a>
+
+                <a href="#" class="text-[var(--text-nav)] relative group px-2 py-1 font-[Raleway] font-[500] block text-[18px] leading-[120%]">Services
+                    <span class="absolute right-0 bottom-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-200"></span>
+
+                    <span class="absolute right-0 bottom-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-200"></span>
+
+                    <span class="absolute left-0 top-0 w-0 h-[2px] bg-red-500
+                 group-hover:w-full duration-200 delay-0"></span>
+
+                    <span class="absolute left-0 top-0 h-0 w-[2px] bg-red-500
+                 group-hover:h-full duration-200 delay-0"></span>
+                </a> -->
+                    </nav>
+                    <button class="hover:animate-pulse inline-block py-[14.5px] px-[26.5px] bg-white rounded-[100px] max-lg:hidden">
+                        <a
+                            class="font-[Raleway] text-[16px] font-bold rounded-[100px] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] bg-clip-text text-transparent">Customer
+                            Login</a>
+                    </button>
+                    <div id="menu" class="lg:hidden">
+                        <i class="fa-solid fa-bars text-4xl text-white"></i>
+                    </div>
+                </header>
+                <!-- small screen header -->
+                <header id="header"
+                    class="w-full absolute top-[100px] -left-[150%] flex flex-col gap-4 justify-center items-center bg-[url('./images/flowers.png'),linear-gradient(to_bottom_right,#29E0FF_0%,_#1FB0FF_100%),url('./images/curve-mask.svg')]
+ bg-cover bg-center [mask-image:url('./images/curve-mask.svg')] [mask-repeat:no-repeat] [mask-size:100%_100%] pt-4 pb-8 transition-all duration-[900ms] z-[50]">
+                    <div class="flex justify-between w-full px-4">
+                        <h1></h1>
+                        <h1 id="cross" class="text-5xl rotate-45 text-white">+</h1>
+                    </div>
+                    <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Home</a>
+                    <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">About
+                        Us</a>
+                    <a href="#" class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Why Us</a>
+                    <a href="#"
+                        class="text-white font-[Raleway] font-[500] block text-[18px] leading-[120%]">Services</a>
+
+                    <button class="inline-block w-fit py-[14.5px] px-[26.5px] bg-white rounded-[100px]">
+                        <a
+                            class="font-[Raleway] text-[16px] font-bold rounded-[100px] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] bg-clip-text text-transparent">Customer
+                            Login</a>
+                    </button>
+                </header>
+            </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="max-2xl:ml-auto 2xl:mx-auto max-w-[1290px] pb-36 pl-4">
+            <section class="w-full grid grid-cols-1 lg:grid-cols-2 mt-[76px] overflow-hidden">
+                <!-- <div class="col-span-1 lg:col-span-2 lg:pl-[163px]"> -->
+                <div class="col-span-1 lg:col-span-2 animate-on-scroll opacity-0" data-animate="animate__backInDown" style="--animate-duration:1s;">
+                    <h1 class="font-[Raleway] font-[600] text-[5.21vw] leading-[110%] text-white">
+                        Cold Chain Service Now
+                    </h1>
+                    <h1 class="font-[Raleway] font-[600] text-[5.21vw] italic leading-[110%] text-white animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__flipInX" style="--animate-delay:1s; --animate-duration:1s;">
+                        Just a Click away</h1>
+                </div>
+                <!-- <div class="lg:pl-[163px] mt-[20px]"> -->
+                <div class="mt-[20px]">
+
+                    <p class="font-[Raleway] font-[500] text-[20px] leading-[150%] text-white mb-[40px] 
+                    animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__fadeInUp" style="--animate-duration:1s; --animate-delay:2s;">
+                        We provide a Plug'n'Play model for temperature-sensitive products, empowering our customers with
+                        the essential tools to expand their business while we ensure the preservation and transportation
+                        of perishable goods.
+                    </p>
+                    <div class="flex gap-[14px] max-lg:justify-center">
+                        <button class="block py-[14.5px] px-[26.5px] bg-white rounded-[100px] animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__bounceInUp" style="--animate-duration:2s; --animate-delay:3s;">
+                            <a
+                                class="text-[16px] font-bold font-[Raleway] rounded-[100px] leading-[120%] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] bg-clip-text text-transparent">Get
+                                Started</a>
+                        </button>
+
+                        <button class="block py-[14.5px] px-[26.5px] border-[2px] rounded-[100px] animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__bounceInUp" style="--animate-duration:2s; --animate-delay:4s;">
+                            <a class="text-[16px] font-[Raleway] rounded-[100px] leading-[120%] text-white">Learn More
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="mt-12 lg:relative lg:left-20 animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__lightSpeedInRight" style="--animate-duration:2.5s; --animate-delay:2s;">
+                    <img src="./images/truck.png" alt="Truck" class="w-[70%] mx-auto lg:w-full h-full object-contain">
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="w-full relative mb-[40px]">
+        <div class="max-w-[1270px] mx-auto flex justify-center">
+            <div
+                class="bg-[#1EA7FF]/5 bg-clip-text text-transparent absolute top-0 text-[12vw] tracking-[5vw] font-bold text-center">
+                Services
+            </div>
+        </div>
+        <div class="max-w-[1142px] mx-auto relative pt-[138px] px-4">
+            <h1 class="font-[Raleway] font-[500] w-full text-center text-[48px] max-md:text-[30px] mb-[40px] animate-on-scroll opacity-0" data-animate="animate__zoomIn" style="--animate-duration:1s;">
+                <span class="text-black mr-4">Choose</span><span
+                    class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">Services</span>
+            </h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[25px]">
+                <div class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInDown" style="--animate-duration:1s; --animate-delay:0.5s">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service1.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Logistics</h3>
+                        <p class="font-[Raleway] font-[600] leading-[100%] text-[18px]">(Reefer Vehicle)</p>
+                    </div>
+                </div>
+
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white 
+                    animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInDown" style="--animate-duration:1s; --animate-delay:1s">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service2.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Storage</h3>
+                        <p class="font-[Raleway] font-[600] leading-[100%] text-[18px]">(Cold Storage)</p>
+                    </div>
+                </div>
+
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white 
+                    animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInDown" style="--animate-duration:1s; --animate-delay:1.5s">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service3.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Integrated</h3>
+                        <p class="font-[Raleway] font-[600] leading-[100%] text-[18px]">(Procure, store and distribute)
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex justify-between w-full py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white 
+                    animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInUp" style="--animate-duration:1s; --animate-delay:0.7s">
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                            <img src="./images/service4.svg" alt="Service1" class="w-[48px] h-[48px]">
+                        </div>
+                        <p class="font-[Raleway] font-[600] text-[18px] leading-[28px]">Part Load <i
+                                class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                    <div class="">
+                        <img src="./images/service41.svg" alt="Service41" class="max-h-[121px] w-full">
+                    </div>
+                </div>
+
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex justify-between w-full py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white 
+                    animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInUp" style="--animate-duration:1s; --animate-delay:1.2s">
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                            <img src="./images/service5.svg" alt="Service5" class="w-[48px] h-[48px]">
+                        </div>
+                        <p class="font-[Raleway] font-[600] text-[18px] leading-[28px]">Full Truck Load <i
+                                class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                    <div class="">
+                        <img src="./images/service51.svg" alt="Service51" class="max-h-[121px] w-full">
+                    </div>
+                </div>
+
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex justify-between w-full py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white 
+                    animate-on-scroll animate__delay-1s opacity-0" data-animate="animate__zoomInUp" style="--animate-duration:1s; --animate-delay:1.7s">
+                    <div class="flex flex-col gap-[8px]">
+                        <div
+                            class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                            <img src="./images/service6.png" alt="Service1" class="w-[48px] h-[48px]">
+                        </div>
+                        <p class="font-[Raleway] font-[600] text-[18px] leading-[28px]">Monthly dedicated vehicle <i
+                                class="fa-solid fa-arrow-right-long"></i></p>
+                    </div>
+                    <div class="">
+                        <img src="./images/service61.svg" alt="Service41" class="max-h-[121px] w-full">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section class="w-full relative mb-[60px]">
+        <!-- <div class="bg-[#1EA7FF] bg-clip-text text-transparent absolute top-0 text-[200px] font-bold leading-[218px] tracking-[62.05px]"> -->
+        <div class="max-w-[1332px] mx-auto flex justify-center">
+            <div
+                class="bg-[#1EA7FF]/5 bg-clip-text text-transparent absolute top-0 text-[12vw] tracking-[5vw] font-bold flex w-full justify-center">
+                About Us
+            </div>
+        </div>
+        <div class="w-full relative pt-[138px]">
+            <h1 class="font-[Raleway] font-[500] w-full text-center text-[48px] max-md:text-[30px] mb-[32px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <span class="text-black mr-4">Who </span><span
+                    class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">We
+                    Are?</span>
+            </h1>
+            <p
+                class="max-w-[785px] mx-auto font-[Raleway] text-[20px] leading-[150%] text-black mb-[42px] text-center max-lg:px-4 animate-on-scroll opacity-0 animate__delay-1s" data-animate="animate__fadeInUp" style="--animate-duration:1s; --animate-delay:0.5s;">
+                We provide a Plug'n'Play model for temperature-sensitive products, empowering our customers with the
+                essential tools to expand their business while we ensure the preservation and transportation of
+                perishable goods.
+            </p>
+            <div class="w-full bg-[#E9F6FF]">
+                <div
+                    class="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-[89px] place-items-center py-[77px] px-4">
+                    <div class="flex gap-[19px] flex-col justify-center items-center animate-on-scroll opacity-0" data-animate="animate__slideInLeft" style="--animate-duration:1s;">
+                        <div class="w-full px-[16px] py-[14px] bg-white rounded-lg">
+                            <div class="dropdown flex justify-between ">
+                                <h1 class="font-[Raleway] text-[20px] leading-[150%] text-black">Mission</h1>
+                                <i class="fa-solid fa-caret-down block text-[24px] text-black"></i>
+                            </div>
+                            <div
+                                class="content font-[Raleway] text-[16px] text-black leading-[150%] h-0 overflow-hidden transition-all duration-700">
+                                Our mission is to revolutionize temperature-sensitive logistics by offering a
+                                comprehensive
+                                and streamlined Cold Chain solution to every business. Our commitment is to eliminate
+                                hesitations and challenges in temperature-controlled logistics, enabling businesses to
+                                focus
+                                their efforts on product development and innovation. Through our reliable and accessible
+                                Cold Chain solutions, we empower individuals and enterprises with the necessary tools to
+                                expertly preserve and transport perishable goods.
+                            </div>
+                        </div>
+                        <div class="w-full px-[16px] py-[14px] bg-white rounded-lg">
+                            <div class="dropdown flex justify-between">
+                                <h1 class="font-[Raleway] text-[20px] leading-[150%] text-black">Vision</h1>
+                                <i class="fa-solid fa-caret-down block text-[24px] text-black"></i>
+                            </div>
+                            <div
+                                class="content font-[Raleway] text-[16px] text-black leading-[150%] h-0 overflow-hidden transition-all duration-700">
+                                Our mission is to revolutionize temperature-sensitive logistics by offering a
+                                comprehensive
+                                and streamlined Cold Chain solution to every business. Our commitment is to eliminate
+                                hesitations and challenges in temperature-controlled logistics, enabling businesses to
+                                focus
+                                their efforts on product development and innovation. Through our reliable and accessible
+                                Cold Chain solutions, we empower individuals and enterprises with the necessary tools to
+                                expertly preserve and transport perishable goods.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="animate-on-scroll opacity-0" data-animate="animate__fadeInUp" style="--animate-duration:1s;">
+                        <img src="./images/about.svg" alt="About" class="w-full max-h-[426px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our industry -->
+    <section class="w-full">
+        <div class="py-[46px]">
+            <h1
+                class="w-full mb-[60px] font-[Raleway] font-[500] text-[48px] max-md:text-[30px] text-center leading-[48px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <span class="text-black">Our industry-explicit </span> <span class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)]
+ bg-clip-text text-transparent">competence</span>
+            </h1>
+
+            <div class="max-w-[1026px] mx-auto gap-4 grid max-lg:grid-cols-1 grid-cols-5 place-items-center">
+                <div class="flex flex-col gap-6  sm:flex-row lg:flex-col">
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                </div>
+                <div class="lg:col-span-3">
+                    <img src="./images/map.svg" alt="w-full h-auto">
+                </div>
+                <div class="flex flex-col gap-6 sm:flex-row lg:flex-col">
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                    <div
+                        class="h-[164px] w-[164px] border-b-[4px] border-[#0C76BF] bg-white shadow-gray-300 shadow-md rounded-lg flex flex-col gap-[4px] justify-center items-center">
+                        <img src="./images/industry1.png" alt="Industry1" class="w-[80px] h-[80px]">
+                        <h3 class="font-[Raleway] font-[600] text-[20px] leading-[120%]">Dairy</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our services -->
+    <section class="w-full relative mb-[150.43px]">
+        <!-- <div class="bg-[#1EA7FF] bg-clip-text text-transparent absolute top-0 text-[200px] font-bold leading-[218px] tracking-[62.05px]"> -->
+        <div class="max-w-[1334px] mx-auto flex justify-center">
+            <div
+                class="bg-[#1EA7FF]/5 bg-clip-text text-transparent absolute top-0 text-[12vw] tracking-[2vw] font-bold flex w-full justify-center">
+                Our Services
+            </div>
+        </div>
+        <div class="w-full relative pt-[138px]">
+            <h1 class="font-[Raleway] font-[500] w-full text-center text-[48px] max-md:text-[30px] mb-[30px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <span class="text-black mr-4">Our</span><span
+                    class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">Services</span>
+            </h1>
+            <p class="mb-[40px] text-center font-[Raleway] font-[500] text-[20px] leading-[150%]">We offer the highest
+                quality services</p>
+            <div
+                class="max-w-[1097px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[24px] mb-[60px] px-4">
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service1.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Reefer transport</h3>
+                </div>
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service1.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Reefer transport</h3>
+                </div>
+                <div
+                    class="border-[1px] border-[rgba(0,0,0,0.2)] flex gap-[10.5px] py-[19.5px] px-[18px] rounded-lg text-black hover:bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] hover:text-white">
+                    <div
+                        class="w-[80px] h-[80px] rounded-md bg-[linear-gradient(0deg,#2BEBFF,#2BEBFF),linear-gradient(96.64deg,_#29E0FF_0.47%,#1FB0FF_99.65%)] flex justify-center items-center">
+                        <img src="./images/service1.svg" alt="Service1" class="w-[48px] h-[48px]">
+                    </div>
+                    <h3 class="font-[Raleway] font-[700] text-[18px] leading-[100%] mb-[6px]">Reefer transport</h3>
+                </div>
+            </div>
+            <div class="max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-4 animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <div class="">
+                    <p class="font-[Raleway] font-[400] text-[16px] leading-[150%] text-black mb-[74px]">
+                        Experience the safe and reliable delivery of temperature-sensitive goods, ensuring optimal
+                        conditions throughout the journey to preserve freshness and quality, with temperature visibility
+                        every step of the way. Whether you require a vehicle for inter-city or intra-city needs, we've
+                        got you covered.
+                    </p>
+                    <div class="py-[16px] mb-[12px] rounded-md shadow-gray-300 shadow-md flex gap-[12px] p-[16px]">
+                        <img src="./images/listIcon.svg" alt="icon" class="w-[25.51px] h-[25.51px]">
+                        <div class="">
+                            <h1 class="font-[Raleway] font-[500] text-[20px] leading-[150%]">Part Load</h1>
+                            <p class="font-[Raleway] font-[400] text-[16px] leading-[150%]">
+                                Don't have enough cargo to rent an entire vehicle but want to expand your business
+                                nationwide? No problem! Rent any load with us and we'll handle the transportation for
+                                you.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="py-[16px] mb-[12px] rounded-md shadow-gray-300 shadow-md flex gap-[12px] p-[16px]">
+                        <img src="./images/listIcon.svg" alt="icon" class="w-[25.51px] h-[25.51px]">
+                        <div class="">
+                            <h1 class="font-[Raleway] font-[500] text-[20px] leading-[150%]">Full Truck Load</h1>
+                            <p class="font-[Raleway] font-[400] text-[16px] leading-[150%]">
+                                Discover our hassle-free vehicle booking service across India, tailored to fit your
+                                budgetperfectly.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="py-[16px] mb-[12px] rounded-md shadow-gray-300 shadow-md flex gap-[12px] p-[16px]">
+                        <img src="./images/listIcon.svg" alt="icon" class="w-[25.51px] h-[25.51px]">
+                        <div class="">
+                            <h1 class="font-[Raleway] font-[500] text-[20px] leading-[150%]">Monthly dedicated vehicle
+                            </h1>
+                            <p class="font-[Raleway] font-[400] text-[16px] leading-[150%]">
+                                If you're looking to rent a vehicle and operate it yourself, let us know! We'll arrange
+                                for a vehicle nearyour location to suit your needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="./images/truckBuilding.png" alt="Truck" class="w-full max-h-[571px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why us -->
+    <section class="w-full mb-[80px] bg-[#E9F6FF] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+        <div class="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2">
+            <div class="">
+                <img src="./images/why.png" alt="WhyHero" class="w-full max-h-[761px]">
+            </div>
+            <div class="py-[48.3px] px-[50px]">
+                <h1 class="mb-[40px] font-[Raleway] font-[500] text-[48px] max-md:text-[30px] leading-[48px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                    Why Us?
+                </h1>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">One Point</span>
+                            access to refrigerated vehicles, cold storages nationwide or any customization requirement.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Flexible Solutions </span>
+                            Offering both part-load and full-load options for inter-city and intra-city transportation.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Transparent Pricing</span>
+                            Standard rates throughout the year with no hidden costs.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Reliability</span>
+                            Upholding commitments with professionalism and efficiency
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Customer-Centric Approach </span>
+                            Focused on continuously elevating service standards based on customer feedback and demands.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Cost-Effective </span>
+                            Delivering cost-saving solutions without compromising on quality.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Integrated Supply Chain </span>
+                            Consolidating quantity, quality, and delivery under one roof for enhanced coordination.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Visibility and Quality Assurance </span>
+                            Providing visibility and guarantee on both quantity and quality.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-[12px] mb-[20px]">
+                    <img src="./images/listIcon.svg" alt="icon" class="w-[27.22px] h-[27.22px]">
+                    <div class="">
+                        <p class="font-[Raleway] font-[400] text-[16px] leading-[24px]">
+                            <span class="font-[600]">Localized Services </span>
+                            Partnering with cold storages across India to provide proximity-based solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- franchise -->
+    <section class="w-full mb-[100px] relative">
+        <!-- <div class="bg-[#1EA7FF] bg-clip-text text-transparent absolute top-0 text-[91.66px] font-bold leading-[218px] tracking-[28.44px]"> -->
+        <div class="max-w-[1440px] mx-auto flex justify-center">
+            <div
+                class="bg-[#1EA7FF]/5 bg-clip-text text-transparent absolute top-0 text-[7vw] tracking-[2vw] font-bold flex w-full justify-center">
+                Franchise Relation
+            </div>
+        </div>
+        <div class="w-full relative pt-[78.87px]">
+            <h1 class="font-[Raleway] font-[500] w-full text-center text-[48px] max-md:text-[30px] mb-[24px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <span class="text-black mr-4">Franchise</span><span
+                    class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">Relation</span>
+            </h1>
+            <p
+                class="max-w-[862px] max-md:px-4 mx-auto mb-[40px] text-center font-[Raleway] font-[500] text-[20px] leading-[150%]">
+                Looking to increase utilization of your reefer vehicles or cold store? Contact us to earn more. If you
+                are looking for better investment return, contact us to know more.
+            </p>
+            <div class="max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[25px] place-items-center px-4 animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <div class="w-full">
+                    <form action="" class="w-full">
+                        <input type="text" placeholder="Name*"
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.4)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                        <input type="tel" placeholder="Contact Number*"
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.4)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                        <select name="" id=""
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.2)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                            <option value="abc" selected disabled>Select State*</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                        </select>
+                        <select name="" id=""
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.2)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                            <option value="abc" selected disabled>Select City*</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                        </select>
+                        <textarea name="" id=""
+                            class="w-full h-[80px] rounded-lg border-[1px] border-[rgba(0,0,0,0.2)] px-[16px] py-[14px]"
+                            placeholder="Message*"></textarea>
+                    </form>
+                </div>
+                <div class="">
+                    <img src="./images/franchise.png" alt="franchise" class="w-full max-h-[508px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Now -->
+    <section class="w-full mb-[80.13px] bg-[#E9F6FF] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+        <div class="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-[50px]">
+            <div class="">
+                <img src="./images/app.png" alt="App" class="w-full max-h-[547px]">
+            </div>
+            <div class="px-4">
+                <h1 class="font-[Raleway] font-[500] text-[3.62vw] leading-[120%]">Get Ravi Frozen</h1>
+                <h1 class="font-[Raleway] font-[500] text-[3.62vw] leading-[120%] mb-[21px]">COLD CHAIN</h1>
+                <h2 class="font-[Raleway] font-[300] text-[48px] max-md:text-[30px] leading-[120%] mb-[21px]">App Now!
+                </h2>
+                <p class="mb-[50px] font-[Raleway] font-[300] text-[20px] leading-[28px]">
+                    Welcome to Ravi Frozen – your all-in-one solution for simplifying cold supply chain management!
+                </p>
+                <div class="">
+                    <img src="./images/googlePlay.png" alt="GooglePlay" class="h-[67px] w-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="w-full mb-[100px] relative">
+        <!-- <div class="bg-[#1EA7FF] bg-clip-text text-transparent absolute top-0 text-[91.66px] font-bold leading-[218px] tracking-[28.44px]"> -->
+        <div class="max-w-[1440px] mx-auto flex justify-center">
+            <div
+                class="bg-[#1EA7FF]/5 bg-clip-text text-transparent absolute top-0 text-[12vw] tracking-[2vw] font-bold flex w-full justify-center">
+                Contact Us
+            </div>
+        </div>
+        <div class="w-full relative pt-[178px] px-4">
+            <h1 class="font-[Raleway] font-[500] w-full text-center text-[48px] max-md:text-[30px] mb-[24px] animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <span class="bg-[linear-gradient(90deg,#2BEBFF_0%,#21B6FF_100%)] bg-clip-text text-transparent">Contact
+                    Us</span>
+            </h1>
+            <p class="mb-[40px] text-center font-[Raleway] font-[500] text-[20px] leading-[150%]">
+                Chat with our support team to learn more
+            </p>
+            <div class="max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-[25px] place-items-center animate-on-scroll opacity-0" data-animate="animate__zoomIn">
+                <div class="w-full">
+                    <form action="" class="w-full">
+                        <input type="text" placeholder="Name*"
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.4)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                        <input type="email" placeholder="Email*"
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.4)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                        <select name="" id=""
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.2)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+                            <option value="abc" selected disabled>Service of Interest*</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                            <option value="abc">Abc</option>
+                        </select>
+                        <input type="text" placeholder="Subject*"
+                            class="px-[16px] py-[14px] placeholder-[rgba(0,0,0,0.4)] w-full rounded-md border-[1px] border-[rgba(0,0,0,0.2)] mb-[10px]">
+
+                        <textarea name="" id=""
+                            class="mb-[40px] w-full h-[80px] rounded-lg border-[1px] border-[rgba(0,0,0,0.2)] px-[16px] py-[14px]"
+                            placeholder="Message*"></textarea>
+                        <button
+                            class="w-[220px] h-[48px] bg-[linear-gradient(96.64deg,#29E0FF_0.47%,#1FB0FF_99.65%)] rounded-[100px] text-white flex justify-center items-center font-[Raleway] font-[700] text-[16px] leading-[120%]">Submit</button>
+                    </form>
+                </div>
+                <div class="">
+                    <img src="./images/franchise.png" alt="franchise" class="w-full max-h-[508px]">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        class="w-full bg-[url('./images/flowers.png'),linear-gradient(to_bottom_right,#29E0FF_0%,_#1FB0FF_100%),url('./images/footer-mask.svg')]
+ bg-cover bg-center [mask-image:url('./images/footer-mask.svg')] [mask-repeat:no-repeat] [mask-size:100%_100%] pt-12 pb-4">
+        <div class="mx-auto max-w-[1139.68px] grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 place-items-center">
+            <div class="">
+                <!-- <div class="mb-[24px] border-[1px]"> -->
+                <img src="./images/footerLogo.png" alt="FooterLogo"
+                    class="max-w-[218px] h-fit object-contain invert brightness-0">
+                <!-- </div> -->
+                <p class="font-[Raleway] font-[500] text-[20px] leading-[29.88px] text-white">
+                    We serve you Cold. Cold Chain
+                </p>
+                <p class="font-[Raleway] font-[500] text-[20px] leading-[29.88px] text-white">
+                    service now just a click away. </p>
+            </div>
+
+            <div class="grid grid-cols-2">
+                <div class="">
+                    <h1 class="font-[Raleway] font-semibold text-[22px] leading-[26.4px] text-white mb-[24px]">Links
+                    </h1>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]">About
+                        Us</a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]">Why Us</a>
+                    <a href="#"
+                        class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]">Services</a>
+                </div>
+                <div class="">
+                    <h1 class="font-[Raleway] font-semibold text-[22px] leading-[26.4px] text-white mb-[24px]">Get in
+                        Touch</h1>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]"><i
+                            class="fa-regular fa-envelope mr-[4px]"></i>sales@ravifrozen.in</a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]"><i
+                            class="fa-solid fa-phone mr-[4px]"></i>+91 123 456 7890</a>
+                    <a href="#" class="block mb-[20px] text-white font-[Raleway] text-[16px] leading-[21px]"><i
+                            class="fa-solid fa-location-dot mr-[4px]"></i>6391 Elgin St. Celina, Delaware 10299</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-full h-[63px] flex justify-center items-center border-t-[1px] font-[Raleway] font-[400] text-[15px] leading-[18px] text-white">
+            Ravi Frozen©2025. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        const header = document.getElementById('header');
+        const menu = document.getElementById('menu');
+        const cross = document.getElementById('cross');
+
+        menu.addEventListener('click', () => {
+            header.classList.toggle('-left-[150%]');
+            header.classList.toggle('left-0');
+        });
+        cross.addEventListener('click', () => {
+            header.classList.toggle('left-0');
+            header.classList.toggle('-left-[150%]');
+        });
+
+        document.querySelectorAll('.dropdown').forEach((btn) => {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector('i');
+
+            btn.addEventListener('click', () => {
+                if (content.style.height) {
+                    content.style.height = null;
+                    icon.classList.remove('rotate-180');
+                } else {
+                    content.style.height = content.scrollHeight + 'px';
+                    icon.classList.add('rotate-180');
+                }
+            });
+        });
+
+
+    const items = document.querySelectorAll(".animate-on-scroll");
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const animation = entry.target.dataset.animate;
+
+            entry.target.classList.add(
+              "animate__animated",
+              animation
+            );
+
+            entry.target.classList.remove("opacity-0");
+
+            observer.unobserve(entry.target); // run once
+          }
+        });
+      },
+      {
+        threshold: 0.2
+      }
+    );
+
+    items.forEach(item => observer.observe(item));
+
+    </script>
+</body>
+
+</html>
